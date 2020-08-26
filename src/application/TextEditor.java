@@ -291,17 +291,6 @@ public class TextEditor {
 		}
 	}
 
-	private void search() {
-		try {
-			JDialog d = new JDialog(frame, "Search", true);
-			d.getContentPane().setLayout(new FlowLayout());
-			d.setBounds(50,50,50,50);
-			frame.getContentPane().add(d);
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-	}
-
 	private void cut() {
 		String cutString = textArea.getSelectedText();
 		StringSelection cutSelection = new StringSelection(cutString);
