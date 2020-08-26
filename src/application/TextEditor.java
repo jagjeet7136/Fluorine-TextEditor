@@ -119,13 +119,6 @@ public class TextEditor {
 			}
 		});
 
-		JMenuItem mntmNewMenuItem_5 = new JMenuItem("Search");
-		mntmNewMenuItem_5.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				search();
-			}
-		});
-
 		FileMenu.add(mntmNewMenuItem_5);
 
 		JSeparator separator_2 = new JSeparator();
